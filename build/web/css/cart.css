@@ -1,0 +1,145 @@
+.wraptop{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.cartTop{
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+.phartCart{
+    display: block;
+    margin: auto;
+
+}
+.phartCart div{
+    align-items: center;
+    text-align: center;
+    margin: 14px auto;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.line{
+    margin-left: 23%;
+    width: 55%;
+    margin-top: -34px;
+    border-bottom: 2px solid #dddd;
+}
+.cartGiohang{
+    border: 1px solid #0DB7EA;  
+}
+.Cartbot{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.rightCart{
+    flex: 2;
+}
+.leftCart{
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: solid 1px #dddd;
+}
+.table{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 103px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #dddd;
+}
+.body>tr>td:first-child img{
+    width: 130px;
+}
+.head>tr>th{
+    padding-bottom: 10px;
+    border-bottom: solid 2px #dddd;
+    border-collapse: collapse;
+    text-align: center;
+}
+.body{
+    font-size: 12px;
+}
+.body>tr>td>img{
+    border-radius: 50%;
+    width: 50%;
+    max-width: 50px;
+}
+.body>tr>td>input{
+    width: 20%;
+}
+.body>tr>td>a{
+    word-break: break-word;
+    font-size: 12px;
+}
+.head>tr>th:nth-child(2){
+    max-width: 130px;
+}
+.head>tr>th{
+    font-size: 13px;
+}
+.body>tr>td:last-child a{
+    border: 1px solid #dddd;
+    padding: 2px 4px;
+}
+.left-table{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.title{
+    padding-bottom: 11px;
+    border-bottom: 1px solid #dddd;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-collapse: collapse;
+}
+.receipt>td{
+    padding: 6px 0;
+}
+.receipt:nth-child(4) td{
+    border-bottom: 1px solid #dddd;
+}
+.contact{
+    text-align: center;
+    font-size: 12px;
+}
+.contact p{
+    margin: 13px 0;
+}
+.alo{
+    color: red;
+    font-size: 15px;
+}
+.button-cart{
+    text-align: center;
+    margin: 20px 0;
+}
+.button-cart> a> button{
+    width: 130px;
+    height: 35px;
+    margin-right: 5px;
+}
+.button-cart> a> button >:first-child{
+    background: white;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+.button-cart> a> button:nth-child(2){
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,119 @@
+.wraptop{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.cartTop{
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+.phartCart{
+    display: block;
+    margin: auto;
+
+}
+.phartCart div{
+    align-items: center;
+    text-align: center;
+    margin: 14px auto;
+}
+.circle{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.line{
+    margin-left: 23%;
+    width: 55%;
+    margin-top: -34px;
+    border-bottom: 2px solid #dddd;
+}
+.payment-detail{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.payment-left{
+    flex: 7; 
+    border-right: 1px solid black;
+}
+.payment-right{
+    flex: 5;
+    margin-left: 22px;
+}
+.payment-left div{
+    margin: 14px 0px;
+    font-size: 12px;
+}
+.submit-row{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.submit-row button{
+    background: white;
+    width: 120px;
+    height: 35px;
+    margin-top: 100px;
+    border: 2px solid black;
+}
+.code1>input{
+    width: 180px;
+    height: 35px;
+    margin: 5px 10px 20px 0;
+}
+.code1>button{
+    border: rgb(211, 210, 209);
+    width: 60px;
+    height: 35px;
+    color: aliceblue;
+    background: rgb(218, 189, 60);
+    
+}
+.code1>select{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 16px;  
+}
+table{
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+.tblee>tbody>tr>th{
+    font-weight: bold;
+    font-size: 13px;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+.tblee>tbody>tr>td{
+    padding: 10px 0px;
+}
+.tblee>tbody>tr:nth-child(2)>td{
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}
+.tblee>tbody>tr:nth-child(3)>td{
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}
+.tblee>tbody>tr:nth-child(4)>td{
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}
+.tblee>tbody>tr:nth-child(5)>td{
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}

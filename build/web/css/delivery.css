@@ -1,0 +1,125 @@
+.wraptop{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.cartTop{
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+.phartCart{
+    display: block;
+    margin: auto;
+
+}
+.phartCart div{
+    align-items: center;
+    text-align: center;
+    margin: 14px auto;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.line{
+    margin-left: 23%;
+    width: 55%;
+    margin-top: -34px;
+    border-bottom: 2px solid #dddd;
+}
+.delivery-detail{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.deliveryleft{
+    flex: 7;
+    border-right: 1px solid rgb(161, 160, 160);
+    font-size: 12px;
+}
+.deliveryright{
+    flex: 4;
+    margin-left: 16px;
+    font-size: 12px;
+}
+.table-deal{
+    width: 100%;
+}
+.formrq{
+    width: 100%;
+}
+.table-deal>tbody>tr>th{
+    padding-bottom: 14px;
+    border-collapse: collapse;
+    border-bottom: solid 1px #dddd;
+    text-align: left;
+}
+.table-deal>tbody>tr>td{
+    padding: 12px 0px;
+}
+.table-deal>tbody>tr:nth-child(2)>td{
+    border-collapse: collapse;
+    border-bottom: solid 1px #dddd;
+}
+.title>div{
+   margin: 13px 5px;
+    
+}
+.submit-row{
+    margin: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.submit-row button {
+    margin: 0px 40px 10px 0;
+    height: 40px;
+    width: 220px;
+    background: rgba(243, 240, 240, 0.867);
+    border: solid 2px black
+}
+.input-item input{
+    height: 30px;
+    width: 300px;
+}
+.select1{
+    height: 30px;
+    width: 300px;
+}
+.enter-customer{
+    margin: 30px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-item{
+    margin: 10px 40px 10px 0;
+}
+.password.block{
+    display: block;
+}
+.password.none{
+    display: none;
+}
+.password{
+    display: flex;
+   justify-content: space-between;
+}
+.pass{
+    margin: 0px 40px 10px 0;
+}
+.password input{
+    height: 30px;
+    width: 300px;
+}
